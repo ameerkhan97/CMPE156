@@ -1,0 +1,15 @@
+#Ameer Khan
+#ID: 1476214
+#CMPE 156
+#Assignment #2
+#readme
+
+client.c: allows user of this application to type various Unix shell commands
+
+server.c: listens to incoming client requests, executes it and returns results back to the client
+
+Makefile: compiles client.c and server.c
+
+Lab_2_Documentation: explains design of client.c and server.c
+
+README: lists all files that are submitted

@@ -1,0 +1,29 @@
+#Ameer Khan
+#ID: 1476214
+#CMPE 156
+#Assignment #4
+#readme
+
+client.c: client file that download “chunks” of a file from multiple servers
+
+server.c: listens to incoming client requests for file size and file content, executes it and returns file content back to the client in form of a text file
+
+Makefile: compiles client.c and server.c
+
+file1.txt: text file with some text
+
+file2.txt: text file with some text
+
+file3.txt: text file with some text
+
+file4.txt: text file with some text
+
+file5.txt: text file with some text
+
+file6.txt: text file with some text
+
+Lab_4_Documentation: explains design of client.c and server.c
+
+README: lists all files that are submitted
+
+Issues involving my code: My program is only able to run the servers listed in server-info.txt in order and is not able to run servers out of order. My program is also not able to use an alternative server if one of the selective servers is unreachable. The ip address and port number in server-info.txt is separated by a single white space and can't handle other spaces such as tabs. I was not able to implement concurrency correctly. If chunk size is greater than 65527, then it can split up into smaller chunks only for one server. 

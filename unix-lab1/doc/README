@@ -1,0 +1,13 @@
+#Ameer Khan
+#ID: 1476214
+#CMPE 156
+#Assignment #1
+#readme
+
+client.c: program that sends requests with GET or HEAD methods to any public HTTP server and retrieves corresponding document
+
+Makefile: compiles client.c
+
+Lab1 Documentation: explains design of client.c
+
+README: lists all files that are submitted

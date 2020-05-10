@@ -1,0 +1,17 @@
+#Ameer Khan
+#ID: 1476214
+#CMPE 156
+#Final Project
+#readme
+
+client.c: client that reads from and writes to the server
+
+server.c: server that handles the messages between the clients
+
+Makefile: compiles client.c and server.c
+
+FinalProject_Documentation: explains design of client.c and server.c
+
+README: lists all files that are submitted
+
+Issues involving my code: When a client asks to wait and is added to list of waiting clients, it is not in alphabetical order, its added based who asked to wait first. The structure of the (> message) in the states is not exactly the same as the one in the lab manual all the time, there are some discrepancies. My program works best when there is only one client in the waiting state; however when there are multiple clients in the waiting state, it works when you connect to clients in order going from the bottom of the list. For example if there are three clients in the waiting list, connect to the third one first, then the second one, then the first one. If you connect in a different order, some bugs occur. I'm also kinda unable to handle duplicate clients because it only handles duplicate clients if a client with the same name is in the wait state or chat state, not if it is in the info state. One last issue is that the client cannot talk without the server. This is due to the fact that my server handles the messages between the client. I also have two warnings when I compile.
